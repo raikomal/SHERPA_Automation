@@ -9,36 +9,17 @@
 #     page.goto("http://103.204.95.218:7050/")
 #     page.get_by_role("textbox", name="Enter your email id").click()
 #     page.get_by_role("textbox", name="Enter your email id").fill("sherpa@local.com")
-#     page.get_by_role("textbox", name="Enter your password").click()
+#     page.locator(".flex.flex-col.gap-\\[2vh\\] > div:nth-child(2)").click()
 #     page.get_by_role("textbox", name="Enter your password").fill("sherpa@123")
 #     page.get_by_role("button", name="LOGIN").click()
-#     page.locator("div").filter(has_text=re.compile(r"^Power Monitoring$")).first.click()
-#     page.get_by_role("button", name="Go to App").nth(2).click()
-#     page.get_by_text("1.73 MWAvg Total").click()
-#     page.get_by_text("85 kWPeak TodaykWPeak 93").click()
-#     page.get_by_text("%Avg Utilization Last 24 hoursSite-wide Power Capacity83%").click()
-#     page.get_by_text("77Threshold Status● Critical").click()
-#     page.get_by_role("button", name="Site").click()
-#     page.get_by_role("button", name="Room").click()
-#     page.get_by_role("button", name="Customer").click()
-#     page.get_by_role("button", name="SLA Tier").click()
-#     page.locator("rect").nth(1).click()
-#     page.locator("div").filter(has_text=re.compile(r"^A2$")).click()
-#     page.get_by_role("img", name="Eye").click()
-#     page.get_by_role("button", name="A2").click()
-#     page.get_by_text("A3", exact=True).click()
-   
-#     page.locator(".highcharts-plot-band").first.click()
-#     page.get_by_text("40%").click()
-#     page.get_by_text("35%").click()
-#     page.get_by_text("25%").click()
-#     page.get_by_role("button", name="Zoom").click()
-#     page.get_by_role("button", name="Close").click()
-#     page.get_by_text("PeakPeak").click()
-#     page.locator(".highcharts-point.highcharts-color-0.highcharts-point-hover").click()
-#     page.get_by_role("button", name="Back").click()
-#     page.get_by_role("button", name="Back").click()
-#     page.get_by_role("button", name="Power Monitoring", exact=True).click()
+#     page.locator("div:nth-child(8) > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]").click()
+    
+#     page.locator(".highcharts-point.highcharts-point-hover").click()
+#     page.locator(".highcharts-point.highcharts-point-hover").click()
+#     page.locator(".highcharts-point.highcharts-point-hover").first.click()
+#     page.locator(".highcharts-point.highcharts-point-hover").first.click()
+#     page.locator(".highcharts-halo.highcharts-color-undefined").click()
+#     page.locator(".highcharts-markers > .highcharts-point").click()
 
 #     # ---------------------
 #     context.close()
@@ -47,3 +28,62 @@
 
 # with sync_playwright() as playwright:
 #     run(playwright)
+from playwright.sync_api import sync_playwright
+import re
+
+
+def run():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False, slow_mo=800)
+        page = browser.new_page()
+
+        # ================= LOGIN =================
+        page.goto("http://103.204.95.218:7050/")
+
+        page.get_by_role("textbox", name="Enter your email id").fill("sherpa@local.com")
+        page.get_by_role("textbox", name="Enter your password").fill("sherpa@123")
+        page.get_by_role("button", name="LOGIN").click()
+
+        # ================= DASHBOARD =================
+        page.wait_for_selector("text=Power Quality Analytics", timeout=20000)
+
+        # 👉 CLICK APP CARD (YOUR LINE)
+        page.locator("div").filter(
+            has_text=re.compile(r"^Power Quality Analytics$")
+        ).click()
+
+        # 👉 CLICK GO TO APP (VERY IMPORTANT)
+        page.locator(
+            "div:nth-child(8) > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]"
+        ).click()
+
+        # ================= WAIT FOR GRAPH =================
+        page.wait_for_selector(".highcharts-container", timeout=20000)
+
+        # ================= HOVER GRAPH =================
+        points = page.locator(".highcharts-point")
+
+        total = points.count()
+        print("Total points:", total)
+
+        for i in range(min(8, total)):
+            point = points.nth(i)
+
+            point.scroll_into_view_if_needed()
+
+            box = point.bounding_box()
+
+            if box:
+                page.mouse.move(
+                    box["x"] + box["width"] / 2,
+                    box["y"] + box["height"] / 2
+                )
+
+                print(f"Hovering on point {i}")
+                page.wait_for_timeout(2000)
+
+        page.wait_for_timeout(5000)
+        browser.close()
+
+
+run()
