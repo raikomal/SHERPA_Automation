@@ -1,0 +1,346 @@
+2026-03-17 21:14:44,634 | INFO | FILL -> Email Field: sherpa@local.com
+2026-03-17 21:14:45,729 | INFO | FILL -> Password Field: sherpa@123
+2026-03-17 21:14:46,779 | INFO | CLICK -> Login Button
+2026-03-17 21:14:48,193 | INFO | CLICK -> Go to App
+2026-03-17 21:14:58,198 | ERROR | FAIL CLICK -> Go to App | Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Go to App").first to be visible
+
+2026-03-18 11:41:39,076 | INFO | FILL -> Email Field: sherpa@local.com
+2026-03-18 11:41:40,146 | INFO | FILL -> Password Field: sherpa@123
+2026-03-18 11:41:41,184 | INFO | CLICK -> Login Button
+2026-03-18 11:51:13,986 | INFO | FILL -> Email Field: sherpa@local.com
+2026-03-18 11:51:15,053 | INFO | FILL -> Password Field: sherpa@123
+2026-03-18 11:51:16,091 | INFO | CLICK -> Login Button
+2026-03-18 12:23:20,352 | INFO | FILL -> Email Field: sherpa@local.com
+2026-03-18 12:23:21,413 | INFO | FILL -> Password Field: sherpa@123
+2026-03-18 12:23:22,445 | INFO | CLICK -> Login Button
+2026-03-18 12:36:53,142 | ERROR | FAIL CLICK -> Go to App | Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Go to App").first to be visible
+
+2026-03-18 12:38:45,493 | ERROR | FAIL CLICK -> Go to App | Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Go to App").first to be visible
+
+2026-03-18 12:44:40,872 | INFO | CLICK -> Go to App
+2026-03-18 12:48:08,592 | INFO | CLICK -> Go to App
+2026-03-18 12:50:35,525 | ERROR | FAIL CLICK -> Go to App | Locator.wait_for: Error: strict mode violation: locator("text=Go to App") resolved to 9 elements:
+    1) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").first
+    2) <button class="↵                     rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵                   ">…</button> aka get_by_role("button", name="Go to App").nth(1)
+    3) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(2)
+    4) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(3)
+    5) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(4)
+    6) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(5)
+    7) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(7) > .relative.rounded-xl > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+    8) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(8) > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+    9) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(9) > .relative.rounded-xl > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+
+Call log:
+  - waiting for locator("text=Go to App") to be visible
+
+2026-03-18 12:53:08,377 | ERROR | FAIL CLICK -> Go to App | Locator.wait_for: Error: strict mode violation: get_by_role("button", name="Go to App") resolved to 9 elements:
+    1) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").first
+    2) <button class="↵                     rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵                   ">…</button> aka get_by_role("button", name="Go to App").nth(1)
+    3) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(2)
+    4) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(3)
+    5) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(4)
+    6) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(5)
+    7) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(7) > .relative.rounded-xl > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+    8) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(8) > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+    9) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(9) > .relative.rounded-xl > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+
+Call log:
+  - waiting for get_by_role("button", name="Go to App") to be visible
+
+2026-03-18 12:55:25,929 | ERROR | FAIL CLICK -> Go to App for Profile Dictionary | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("text=Profile Dictionary").locator("..").get_by_role("button", name="Go to App") to be visible
+
+2026-03-18 12:59:03,010 | ERROR | FAIL CLICK -> Go to App for Profile Dictionary | Locator.wait_for: Error: strict mode violation: locator("div:has-text('Profile Dictionary')").first.locator("button:has-text('Go to App')") resolved to 9 elements:
+    1) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").first
+    2) <button class="↵                     rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵                   ">…</button> aka get_by_role("button", name="Go to App").nth(1)
+    3) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(2)
+    4) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(3)
+    5) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(4)
+    6) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka get_by_role("button", name="Go to App").nth(5)
+    7) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(7) > .relative.rounded-xl > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+    8) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(8) > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+    9) <button class="↵            rounded-[0.4vw] flex items-center font-semibold border-none cursor-pointer↵            px-[0.2vw] py-[0.4vh] gap-[0.25vw] text-[0.9vw]↵            2k:px-[0.2vw] 2k:py-[0.4vh] 2k:gap-[0.5vw] 2k:text-[1vw]↵          ">…</button> aka locator("div:nth-child(9) > .relative.rounded-xl > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]")
+
+Call log:
+  - waiting for locator("div:has-text('Profile Dictionary')").first.locator("button:has-text('Go to App')") to be visible
+
+2026-03-18 13:00:31,987 | INFO | CLICK -> Go to App for Profile Dictionary
+2026-03-18 13:01:51,918 | INFO | CLICK -> Go to App for Profile Dictionary
+2026-03-18 13:12:22,897 | INFO | CLICK -> Go to App for Profile Dictionary
+2026-03-18 13:15:55,862 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 13:15:55,946 | INFO | CLICK -> Click Go to App
+2026-03-18 13:22:27,127 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 13:22:27,229 | INFO | CLICK -> Click Go to App
+2026-03-18 13:40:02,050 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 13:40:02,135 | INFO | CLICK -> Click Go to App
+2026-03-18 13:40:02,338 | INFO | CLICK -> Open Profile List View
+2026-03-18 13:40:04,437 | INFO | CLICK -> Click First Graph Card
+2026-03-18 13:40:04,504 | INFO | CLICK -> Back from Profile List View
+2026-03-18 13:40:04,586 | INFO | CLICK -> Open Register Profile
+2026-03-18 13:40:05,632 | INFO | FILL -> Profile Name: Testing Profile
+2026-03-18 13:40:06,671 | INFO | FILL -> Control Class: burst
+2026-03-18 13:40:07,698 | INFO | FILL -> Input Data: 1234567890
+2026-03-18 13:40:07,788 | INFO | CLICK -> Click Propose Options
+2026-03-18 13:40:12,274 | INFO | CLICK -> Check Similarity
+2026-03-18 13:40:29,325 | ERROR | FAIL CLICK -> Preview Profile | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Preview") to be visible
+
+2026-03-18 14:05:32,413 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 14:05:32,479 | INFO | CLICK -> Click Go to App
+2026-03-18 14:05:32,699 | INFO | CLICK -> Open Profile List View
+2026-03-18 14:05:34,798 | INFO | CLICK -> Click First Graph Card
+2026-03-18 14:05:34,865 | INFO | CLICK -> Back from Profile List View
+2026-03-18 14:05:34,948 | INFO | CLICK -> Open Register Profile
+2026-03-18 14:05:35,984 | INFO | FILL -> Profile Name: Testing Profile
+2026-03-18 14:05:37,008 | INFO | FILL -> Control Class: burst
+2026-03-18 14:05:38,039 | INFO | FILL -> Input Data: 1234567890
+2026-03-18 14:05:38,100 | INFO | CLICK -> Click Propose Options
+2026-03-18 14:05:43,087 | INFO | CLICK -> Check Similarity
+2026-03-18 14:06:26,328 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 14:06:26,412 | INFO | CLICK -> Click Go to App
+2026-03-18 14:06:26,615 | INFO | CLICK -> Open Profile List View
+2026-03-18 14:06:28,714 | INFO | CLICK -> Click First Graph Card
+2026-03-18 14:06:28,781 | INFO | CLICK -> Back from Profile List View
+2026-03-18 14:06:28,865 | INFO | CLICK -> Open Register Profile
+2026-03-18 14:06:29,898 | INFO | FILL -> Profile Name: Testing Profile
+2026-03-18 14:06:30,922 | INFO | FILL -> Control Class: burst
+2026-03-18 14:06:31,968 | INFO | FILL -> Input Data: 1234567890
+2026-03-18 14:06:32,049 | INFO | CLICK -> Click Propose Options
+2026-03-18 14:06:38,069 | INFO | CLICK -> Check Similarity
+2026-03-18 14:35:55,089 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 14:35:55,167 | INFO | CLICK -> Click Go to App
+2026-03-18 14:35:55,368 | INFO | CLICK -> Open Profile List View
+2026-03-18 14:35:57,468 | INFO | CLICK -> Click First Graph Card
+2026-03-18 14:35:57,535 | INFO | CLICK -> Back from Profile List View
+2026-03-18 14:35:57,618 | INFO | CLICK -> Open Register Profile
+2026-03-18 14:35:58,657 | INFO | FILL -> Profile Name: Testing Profile
+2026-03-18 14:35:59,679 | INFO | FILL -> Control Class: burst
+2026-03-18 14:36:00,729 | INFO | FILL -> Input Data: 1234567890
+2026-03-18 14:36:00,805 | INFO | CLICK -> Click Propose Options
+2026-03-18 14:36:04,873 | INFO | CLICK -> Check Similarity
+2026-03-18 14:39:16,679 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 14:39:16,754 | INFO | CLICK -> Click Go to App
+2026-03-18 14:39:16,960 | INFO | CLICK -> Open Profile List View
+2026-03-18 14:39:19,077 | INFO | CLICK -> Click First Graph Card
+2026-03-18 14:39:19,154 | INFO | CLICK -> Back from Profile List View
+2026-03-18 14:39:19,237 | INFO | CLICK -> Open Register Profile
+2026-03-18 14:39:20,283 | INFO | FILL -> Profile Name: Testing Profile
+2026-03-18 14:39:21,294 | INFO | FILL -> Control Class: burst
+2026-03-18 14:39:22,341 | INFO | FILL -> Input Data: 1234567890
+2026-03-18 14:39:22,404 | INFO | CLICK -> Click Propose Options
+2026-03-18 14:39:27,376 | INFO | CLICK -> Select Option B
+2026-03-18 14:39:28,541 | INFO | CLICK -> Check Similarity
+2026-03-18 14:45:34,925 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 14:45:35,010 | INFO | CLICK -> Click Go to App
+2026-03-18 14:45:35,209 | INFO | CLICK -> Open Profile List View
+2026-03-18 14:45:37,311 | INFO | CLICK -> Click First Graph Card
+2026-03-18 14:45:37,378 | INFO | CLICK -> Back from Profile List View
+2026-03-18 14:45:37,460 | INFO | CLICK -> Open Register Profile
+2026-03-18 14:45:38,512 | INFO | FILL -> Profile Name: Testing Profile
+2026-03-18 14:45:39,533 | INFO | FILL -> Control Class: burst
+2026-03-18 14:45:40,574 | INFO | FILL -> Input Data: 1234567890
+2026-03-18 14:45:40,664 | INFO | CLICK -> Click Propose Options
+2026-03-18 14:45:47,700 | INFO | CLICK -> Select Option B
+2026-03-18 14:45:48,884 | INFO | CLICK -> Check Similarity
+2026-03-18 14:54:42,099 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 14:54:42,184 | INFO | CLICK -> Click Go to App
+2026-03-18 14:54:42,387 | INFO | CLICK -> Open Profile List View
+2026-03-18 14:54:44,489 | INFO | CLICK -> Click First Graph Card
+2026-03-18 14:54:44,568 | INFO | CLICK -> Back from Profile List View
+2026-03-18 14:54:44,651 | INFO | CLICK -> Open Register Profile
+2026-03-18 14:54:45,702 | INFO | FILL -> Profile Name: Testing Profile
+2026-03-18 14:54:46,741 | INFO | FILL -> Control Class: burst
+2026-03-18 14:54:47,794 | INFO | FILL -> Input Data: 1234567890
+2026-03-18 14:54:47,854 | INFO | CLICK -> Click Propose Options
+2026-03-18 15:09:15,950 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 15:09:16,019 | INFO | CLICK -> Click Go to App
+2026-03-18 15:09:16,349 | INFO | CLICK -> Open Profile List View
+2026-03-18 15:09:18,469 | INFO | CLICK -> Click First Graph Card
+2026-03-18 15:09:18,536 | INFO | CLICK -> Open Full Screen View
+2026-03-18 15:09:53,722 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 15:09:53,788 | INFO | CLICK -> Click Go to App
+2026-03-18 15:09:54,008 | INFO | CLICK -> Open Profile List View
+2026-03-18 15:09:56,109 | INFO | CLICK -> Click First Graph Card
+2026-03-18 15:09:56,192 | INFO | CLICK -> Open Full Screen View
+2026-03-18 15:15:35,739 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 15:15:35,828 | INFO | CLICK -> Click Go to App
+2026-03-18 15:15:36,061 | INFO | CLICK -> Open Profile List View
+2026-03-18 15:15:38,176 | INFO | CLICK -> Click First Graph Card
+2026-03-18 15:15:38,277 | INFO | CLICK -> Open Full Screen View
+2026-03-18 15:22:40,978 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 15:22:41,059 | INFO | CLICK -> Click Go to App
+2026-03-18 15:22:41,283 | INFO | CLICK -> Open Profile List View
+2026-03-18 15:51:16,734 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 15:51:16,783 | INFO | CLICK -> Click Go to App
+2026-03-18 15:51:16,934 | INFO | CLICK -> Open Profile List View
+2026-03-18 16:37:17,990 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 16:37:18,109 | INFO | CLICK -> Click Go to App
+2026-03-18 16:37:18,321 | INFO | CLICK -> Open Profile List View
+2026-03-18 16:40:43,623 | INFO | CLICK -> Click Profile Dictionary Card
+2026-03-18 16:40:43,739 | INFO | CLICK -> Click Go to App
+2026-03-18 16:40:43,921 | INFO | CLICK -> Open Profile List View
+2026-03-19 05:15:16,018 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 05:15:16,097 | INFO | CLICK -> Click Go to App
+2026-03-19 05:15:16,333 | INFO | CLICK -> Right Arrow
+2026-03-19 05:15:16,413 | INFO | CLICK -> Left Arrow
+2026-03-19 05:15:16,481 | INFO | CLICK -> Open Graph Full View
+2026-03-19 05:15:16,663 | INFO | CLICK -> Close Graph
+2026-03-19 05:15:16,730 | INFO | CLICK -> Open Register Profile
+2026-03-19 05:15:17,754 | INFO | FILL -> Profile Name: Test
+2026-03-19 05:15:18,794 | INFO | FILL -> Control Class: burst
+2026-03-19 05:15:19,826 | INFO | FILL -> Input Data: 12345678
+2026-03-19 05:15:19,882 | INFO | CLICK -> Click Propose Options
+2026-03-19 05:15:24,387 | INFO | CLICK -> Select Option
+2026-03-19 05:15:39,470 | ERROR | FAIL CLICK -> Move Slider Right | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(".absolute.right-\\[1vw\\].z-50") to be visible
+
+2026-03-19 05:19:08,504 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 05:19:08,586 | INFO | CLICK -> Click Go to App
+2026-03-19 05:19:08,804 | INFO | CLICK -> Right Arrow
+2026-03-19 05:19:08,900 | INFO | CLICK -> Left Arrow
+2026-03-19 05:19:08,968 | INFO | CLICK -> Open Graph Full View
+2026-03-19 05:19:09,167 | INFO | CLICK -> Close Graph
+2026-03-19 05:19:09,235 | INFO | CLICK -> Open Register Profile
+2026-03-19 05:19:10,264 | INFO | FILL -> Profile Name: Test
+2026-03-19 05:19:11,295 | INFO | FILL -> Control Class: burst
+2026-03-19 05:19:12,328 | INFO | FILL -> Input Data: 12345678
+2026-03-19 05:19:12,386 | INFO | CLICK -> Click Propose Options
+2026-03-19 05:19:16,357 | INFO | CLICK -> Select Option
+2026-03-19 05:19:16,489 | INFO | CLICK -> Check Similarity
+2026-03-19 05:19:31,512 | ERROR | FAIL CLICK -> Select Suggested Profile | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for get_by_text("Sustained High-Power Plateaus") to be visible
+
+2026-03-19 05:22:40,761 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 05:22:40,866 | INFO | CLICK -> Click Go to App
+2026-03-19 05:22:41,037 | INFO | CLICK -> Right Arrow
+2026-03-19 05:22:41,125 | INFO | CLICK -> Left Arrow
+2026-03-19 05:22:41,192 | INFO | CLICK -> Open Graph Full View
+2026-03-19 05:22:41,392 | INFO | CLICK -> Close Graph
+2026-03-19 05:22:41,474 | INFO | CLICK -> Open Register Profile
+2026-03-19 05:22:42,502 | INFO | FILL -> Profile Name: Test
+2026-03-19 05:22:43,516 | INFO | FILL -> Control Class: burst
+2026-03-19 05:22:44,557 | INFO | FILL -> Input Data: 12345678
+2026-03-19 05:22:44,611 | INFO | CLICK -> Click Propose Options
+2026-03-19 05:22:48,616 | INFO | CLICK -> Select Option
+2026-03-19 05:22:48,750 | INFO | CLICK -> Check Similarity
+2026-03-19 05:23:07,807 | ERROR | FAIL CLICK -> Preview Profile | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Preview") to be visible
+
+2026-03-19 05:26:29,827 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 05:26:29,946 | INFO | CLICK -> Click Go to App
+2026-03-19 05:26:30,094 | INFO | CLICK -> Right Arrow
+2026-03-19 05:26:30,210 | INFO | CLICK -> Left Arrow
+2026-03-19 05:26:30,278 | INFO | CLICK -> Open Graph
+2026-03-19 05:26:30,479 | INFO | CLICK -> Close Graph
+2026-03-19 05:26:30,546 | INFO | CLICK -> Open Register Profile
+2026-03-19 05:26:31,580 | INFO | FILL -> Profile Name: Test
+2026-03-19 05:26:32,607 | INFO | FILL -> Control Class: burst
+2026-03-19 05:26:33,642 | INFO | FILL -> Input Data: 12345678
+2026-03-19 05:26:33,697 | INFO | CLICK -> Click Propose Options
+2026-03-19 05:26:38,152 | INFO | CLICK -> Select Option
+2026-03-19 05:26:38,287 | INFO | CLICK -> Check Similarity
+2026-03-19 05:26:56,326 | ERROR | FAIL CLICK -> Select Burst | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^burst$")).first to be visible
+
+2026-03-19 05:29:20,580 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 05:29:20,664 | INFO | CLICK -> Click Go to App
+2026-03-19 05:29:20,872 | INFO | CLICK -> Right Arrow
+2026-03-19 05:29:20,979 | INFO | CLICK -> Left Arrow
+2026-03-19 05:29:21,045 | INFO | CLICK -> Open Graph
+2026-03-19 05:29:21,236 | INFO | CLICK -> Close Graph
+2026-03-19 05:29:21,311 | INFO | CLICK -> Open Register Profile
+2026-03-19 05:29:22,345 | INFO | FILL -> Profile Name: Test
+2026-03-19 05:29:23,365 | INFO | FILL -> Control Class: burst
+2026-03-19 05:29:24,409 | INFO | FILL -> Input Data: 12345678
+2026-03-19 05:29:24,463 | INFO | CLICK -> Click Propose Options
+2026-03-19 05:29:28,952 | INFO | CLICK -> Select Option
+2026-03-19 05:29:29,083 | INFO | CLICK -> Check Similarity
+2026-03-19 05:29:47,119 | ERROR | FAIL CLICK -> Select Burst | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"^burst$")).first to be visible
+
+2026-03-19 05:40:45,322 | ERROR | FAIL CLICK -> Open Profile Dictionary | Locator.wait_for: Error: strict mode violation: locator("div").filter(has_text=re.compile(r"Profile Dictionary")) resolved to 8 elements:
+    1) <div id="root">…</div> aka locator("#root")
+    2) <div>…</div> aka locator("div").nth(1)
+    3) <div class="↵        min-h-screen↵        w-full↵        relative↵        bg-cover↵        bg-center↵        overflow-hidden↵      ">…</div> aka locator("div").nth(2)
+    4) <div class="relative z-10 flex flex-col min-h-screen">…</div> aka get_by_text("SHERPA05:10:45 PM PST18/03/26 | WednesdayProfile DictionaryProfiles 158 Active2")
+    5) <div class="↵      w-[90%]↵      mx-auto↵      grid↵      grid-cols-1↵      sm:grid-cols-2↵      xl:grid-cols-3↵      gap-3↵↵      gap-3↵    ">…</div> aka locator("div").filter(has_text="Profile DictionaryProfiles").nth(4)
+    6) <div class="↵        relative↵        rounded-xl↵        h-[27.9vh]↵        shadow-[0px_0px_10px_0px_#00000080]↵      ">…</div> aka locator("div").filter(has_text="Profile DictionaryProfiles").nth(5)
+    7) <div class="↵    relative↵    h-full↵    w-full↵    rounded-[0.7rem]↵    p-2↵   ↵    flex↵    flex-col↵    justify-between↵    bg-[linear-gradient(72.12deg,rgba(0,36,49,0.85)_4.13%,rgba(0,0,0,0.15)_62.14%,rgba(0,97,153,0.8)_99.36%)]↵↵     pl-4 pr-4↵  ">…</div> aka get_by_text("Profile DictionaryProfiles")
+    8) <div class="flex items-center gap-[0.6vw] pb-[0.6vh] mb-[0.5vh] h-[6vh]↵        border-b-[0.2vh]↵        border-transparent↵        [border-image:linear-gradient(90deg,#302E2E_0%,#666666_49%,#302E2E_100%)_1]">…</div> aka locator("div").filter(has_text=re.compile(r"^Profile Dictionary$"))
+
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"Profile Dictionary")) to be visible
+
+2026-03-19 05:42:46,849 | ERROR | FAIL CLICK -> Open Profile Dictionary | Locator.wait_for: Error: strict mode violation: locator("div").filter(has_text=re.compile(r"Profile Dictionary")) resolved to 8 elements:
+    1) <div id="root">…</div> aka locator("#root")
+    2) <div>…</div> aka locator("div").nth(1)
+    3) <div class="↵        min-h-screen↵        w-full↵        relative↵        bg-cover↵        bg-center↵        overflow-hidden↵      ">…</div> aka locator("div").nth(2)
+    4) <div class="relative z-10 flex flex-col min-h-screen">…</div> aka get_by_text("SHERPA05:12:46 PM PST18/03/26 | WednesdayProfile DictionaryProfiles 158 Active2")
+    5) <div class="↵      w-[90%]↵      mx-auto↵      grid↵      grid-cols-1↵      sm:grid-cols-2↵      xl:grid-cols-3↵      gap-3↵↵      gap-3↵    ">…</div> aka locator("div").filter(has_text="Profile DictionaryProfiles").nth(4)
+    6) <div class="↵        relative↵        rounded-xl↵        h-[27.9vh]↵        shadow-[0px_0px_10px_0px_#00000080]↵      ">…</div> aka locator("div").filter(has_text="Profile DictionaryProfiles").nth(5)
+    7) <div class="↵    relative↵    h-full↵    w-full↵    rounded-[0.7rem]↵    p-2↵   ↵    flex↵    flex-col↵    justify-between↵    bg-[linear-gradient(72.12deg,rgba(0,36,49,0.85)_4.13%,rgba(0,0,0,0.15)_62.14%,rgba(0,97,153,0.8)_99.36%)]↵↵     pl-4 pr-4↵  ">…</div> aka get_by_text("Profile DictionaryProfiles")
+    8) <div class="flex items-center gap-[0.6vw] pb-[0.6vh] mb-[0.5vh] h-[6vh]↵        border-b-[0.2vh]↵        border-transparent↵        [border-image:linear-gradient(90deg,#302E2E_0%,#666666_49%,#302E2E_100%)_1]">…</div> aka locator("div").filter(has_text=re.compile(r"^Profile Dictionary$"))
+
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"Profile Dictionary")) to be visible
+
+2026-03-19 05:45:05,964 | ERROR | FAIL CLICK -> Open Profile Dictionary | Locator.wait_for: Error: strict mode violation: locator("div").filter(has_text=re.compile(r"Profile Dictionary")) resolved to 8 elements:
+    1) <div id="root">…</div> aka locator("#root")
+    2) <div>…</div> aka locator("div").nth(1)
+    3) <div class="↵        min-h-screen↵        w-full↵        relative↵        bg-cover↵        bg-center↵        overflow-hidden↵      ">…</div> aka locator("div").nth(2)
+    4) <div class="relative z-10 flex flex-col min-h-screen">…</div> aka get_by_text("SHERPA05:15:05 PM PST18/03/26 | WednesdayProfile DictionaryProfiles 158 Active2")
+    5) <div class="↵      w-[90%]↵      mx-auto↵      grid↵      grid-cols-1↵      sm:grid-cols-2↵      xl:grid-cols-3↵      gap-3↵↵      gap-3↵    ">…</div> aka locator("div").filter(has_text="Profile DictionaryProfiles").nth(4)
+    6) <div class="↵        relative↵        rounded-xl↵        h-[27.9vh]↵        shadow-[0px_0px_10px_0px_#00000080]↵      ">…</div> aka locator("div").filter(has_text="Profile DictionaryProfiles").nth(5)
+    7) <div class="↵    relative↵    h-full↵    w-full↵    rounded-[0.7rem]↵    p-2↵   ↵    flex↵    flex-col↵    justify-between↵    bg-[linear-gradient(72.12deg,rgba(0,36,49,0.85)_4.13%,rgba(0,0,0,0.15)_62.14%,rgba(0,97,153,0.8)_99.36%)]↵↵     pl-4 pr-4↵  ">…</div> aka get_by_text("Profile DictionaryProfiles")
+    8) <div class="flex items-center gap-[0.6vw] pb-[0.6vh] mb-[0.5vh] h-[6vh]↵        border-b-[0.2vh]↵        border-transparent↵        [border-image:linear-gradient(90deg,#302E2E_0%,#666666_49%,#302E2E_100%)_1]">…</div> aka locator("div").filter(has_text=re.compile(r"^Profile Dictionary$"))
+
+Call log:
+  - waiting for locator("div").filter(has_text=re.compile(r"Profile Dictionary")) to be visible
+
+2026-03-19 05:57:51,278 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 05:57:51,403 | INFO | CLICK -> Click Go to App
+2026-03-19 05:57:51,588 | INFO | CLICK -> Right Arrow
+2026-03-19 05:57:51,720 | INFO | CLICK -> Left Arrow
+2026-03-19 05:57:51,806 | INFO | CLICK -> Open Graph
+2026-03-19 05:58:06,946 | ERROR | FAIL CLICK -> Open Register Profile | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Register Profile") to be visible
+
+2026-03-19 06:04:35,867 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 06:04:35,977 | INFO | CLICK -> Click Go to App
+2026-03-19 06:04:36,230 | INFO | CLICK -> Open Graph
+2026-03-19 06:05:17,969 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 06:05:18,079 | INFO | CLICK -> Click Go to App
+2026-03-19 06:05:18,322 | INFO | CLICK -> Open Graph
+2026-03-19 06:14:07,553 | INFO | CLICK -> Click Profile Dictionary
+2026-03-19 06:14:07,701 | INFO | CLICK -> Click Go to App
+2026-03-19 06:14:08,030 | INFO | CLICK -> Open Register Profile
+2026-03-19 06:14:09,068 | INFO | FILL -> Profile Name: Test
+2026-03-19 06:14:10,102 | INFO | FILL -> Control Class: burst
+2026-03-19 06:14:11,150 | INFO | FILL -> Input Data: 12345678
+2026-03-19 06:14:11,217 | INFO | CLICK -> Click Propose Options
+2026-03-19 06:14:11,300 | INFO | CLICK -> Slider Right
+2026-03-19 06:14:16,819 | INFO | CLICK -> Check Similarity
+2026-03-19 06:14:18,904 | INFO | CLICK -> Re-Check Similarity
+2026-03-19 06:17:58,722 | INFO | CLICK -> Open Profile Dictionary
+2026-03-19 06:17:58,801 | INFO | CLICK -> Go to App
+2026-03-19 06:17:59,051 | INFO | CLICK -> Right Arrow
+2026-03-19 06:17:59,200 | INFO | CLICK -> Left Arrow
+2026-03-19 06:17:59,285 | INFO | CLICK -> Open Graph
+2026-03-19 06:18:14,443 | ERROR | FAIL CLICK -> Open Register Profile | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for get_by_text("Register Profile") to be visible
+
