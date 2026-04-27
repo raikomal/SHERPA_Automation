@@ -344,3 +344,244 @@ Call log:
 Call log:
   - waiting for get_by_text("Register Profile") to be visible
 
+2026-04-27 13:16:03,437 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 13:16:03,535 | INFO | CLICK -> Go to App
+2026-04-27 13:16:03,785 | INFO | CLICK -> Right Arrow
+2026-04-27 13:16:03,971 | INFO | CLICK -> Left Arrow
+2026-04-27 13:16:04,067 | INFO | CLICK -> Open Graph
+2026-04-27 13:16:12,219 | ERROR | FAIL CLICK -> Open Register Profile | Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_text("Register Profile") to be visible
+
+2026-04-27 14:12:46,743 | INFO | CLICK -> Click Email Field
+2026-04-27 14:12:47,835 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 14:12:47,916 | INFO | CLICK -> Click Password Field
+2026-04-27 14:12:48,962 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 14:12:49,052 | INFO | CLICK -> Click Login
+2026-04-27 14:12:51,401 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 14:12:51,530 | INFO | CLICK -> Click Go to App
+2026-04-27 14:12:51,832 | INFO | CLICK -> Click Right Arrow
+2026-04-27 14:12:52,033 | INFO | CLICK -> Click Left Arrow
+2026-04-27 14:12:52,141 | ERROR | FAIL CLICK -> Click Center Card | Locator.wait_for: Error: strict mode violation: locator(".w-\\[2vw\\].h-\\[2vw\\]") resolved to 5 elements:
+    1) <button disabled class="↵          w-[2vw] h-[2vw] flex items-center justify-center rounded-[0.5vw]↵          bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵          opacity-40 cursor-not-allowed↵        ">…</button> aka locator(".w-\\[2vw\\]").first
+    2) <button disabled class="↵          w-[2vw] h-[2vw] flex items-center justify-center rounded-[0.5vw]↵          bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵          opacity-40 cursor-not-allowed↵        ">…</button> aka locator("div:nth-child(4) > .w-full.h-full.min-h-0 > .relative.flex.items-center.w-full > .ml-auto > .p-\\[0\\.08vw\\] > .w-\\[2vw\\]")
+    3) <button class="↵          w-[2vw] h-[2vw] flex items-center justify-center rounded-[0.5vw]↵          bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵          cursor-pointer↵        ">…</button> aka locator(".w-\\[2vw\\].h-\\[2vw\\].flex.items-center.justify-center.rounded-\\[0\\.5vw\\].bg-\\[linear-gradient\\(90deg\\,\\#0D405D_0\\%\\,\\#316D90_100\\%\\)\\].cursor-pointer")
+    4) <button disabled class="↵          w-[2vw] h-[2vw] flex items-center justify-center rounded-[0.5vw]↵          bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵          opacity-40 cursor-not-allowed↵        ">…</button> aka locator("div:nth-child(6) > .w-full.h-full.min-h-0 > .relative.flex.items-center.w-full > .ml-auto > .p-\\[0\\.08vw\\] > .w-\\[2vw\\]")
+    5) <button disabled class="↵          w-[2vw] h-[2vw] flex items-center justify-center rounded-[0.5vw]↵          bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵          opacity-40 cursor-not-allowed↵        ">…</button> aka locator("div:nth-child(7) > .w-full.h-full.min-h-0 > .relative.flex.items-center.w-full > .ml-auto > .p-\\[0\\.08vw\\] > .w-\\[2vw\\]")
+
+Call log:
+  - waiting for locator(".w-\\[2vw\\].h-\\[2vw\\]") to be visible
+
+2026-04-27 14:17:50,643 | INFO | CLICK -> Click Email Field
+2026-04-27 14:17:51,708 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 14:17:51,790 | INFO | CLICK -> Click Password Field
+2026-04-27 14:17:52,844 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 14:17:52,927 | INFO | CLICK -> Click Login
+2026-04-27 14:17:55,263 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 14:17:55,376 | INFO | CLICK -> Click Go to App
+2026-04-27 14:17:55,661 | INFO | CLICK -> Click Right Arrow
+2026-04-27 14:17:55,843 | INFO | CLICK -> Click Left Arrow
+2026-04-27 14:17:55,977 | INFO | CLICK -> Click Center Card
+2026-04-27 14:17:56,278 | INFO | CLICK -> Click Back
+2026-04-27 14:17:56,445 | INFO | CLICK -> Open Register Profile
+2026-04-27 14:17:57,528 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 14:17:58,564 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 14:17:59,603 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 14:17:59,697 | INFO | CLICK -> Click Propose Options
+2026-04-27 14:17:59,815 | INFO | CLICK -> Select Option
+2026-04-27 14:18:14,864 | ERROR | FAIL CLICK -> Scroll Right | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(".absolute.right-\\[1vw\\].z-50").first to be visible
+
+2026-04-27 14:27:39,693 | INFO | CLICK -> Click Email Field
+2026-04-27 14:27:40,759 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 14:27:40,839 | INFO | CLICK -> Click Password Field
+2026-04-27 14:27:41,898 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 14:27:41,977 | INFO | CLICK -> Click Login
+2026-04-27 14:27:44,224 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 14:27:44,325 | INFO | CLICK -> Click Go to App
+2026-04-27 14:27:44,559 | INFO | CLICK -> Click Right Arrow
+2026-04-27 14:27:44,771 | INFO | CLICK -> Click Left Arrow
+2026-04-27 14:27:44,876 | INFO | CLICK -> Click Center Card
+2026-04-27 14:27:45,193 | INFO | CLICK -> Click Back
+2026-04-27 14:27:45,345 | INFO | CLICK -> Open Register Profile
+2026-04-27 14:27:46,401 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 14:27:47,439 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 14:27:48,471 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 14:27:48,560 | INFO | CLICK -> Click Propose Options
+2026-04-27 14:27:48,678 | INFO | CLICK -> Select Option
+2026-04-27 14:28:03,735 | ERROR | FAIL CLICK -> Scroll Right | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(".absolute.right-\\[1vw\\].z-50").first to be visible
+
+2026-04-27 14:31:49,773 | INFO | CLICK -> Click Email Field
+2026-04-27 14:31:50,848 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 14:31:50,938 | INFO | CLICK -> Click Password Field
+2026-04-27 14:31:51,988 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 14:31:52,072 | INFO | CLICK -> Click Login
+2026-04-27 14:31:54,305 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 14:31:54,423 | INFO | CLICK -> Click Go to App
+2026-04-27 14:31:54,777 | INFO | CLICK -> Click Right Arrow
+2026-04-27 14:31:54,909 | INFO | CLICK -> Click Left Arrow
+2026-04-27 14:31:55,025 | INFO | CLICK -> Click Center Card
+2026-04-27 14:31:55,328 | INFO | CLICK -> Click Back
+2026-04-27 14:31:55,474 | INFO | CLICK -> Open Register Profile
+2026-04-27 14:31:56,559 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 14:31:57,594 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 14:31:58,649 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 14:31:58,743 | INFO | CLICK -> Click Propose Options
+2026-04-27 14:31:58,859 | INFO | CLICK -> Select Option
+2026-04-27 14:32:13,916 | ERROR | FAIL CLICK -> Scroll Right | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(".absolute.right-\\[1vw\\].z-50").first to be visible
+
+2026-04-27 15:25:48,722 | INFO | CLICK -> Click Email Field
+2026-04-27 15:25:49,778 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 15:25:49,851 | INFO | CLICK -> Click Password Field
+2026-04-27 15:25:50,897 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 15:25:50,968 | INFO | CLICK -> Click Login
+2026-04-27 15:25:52,789 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 15:25:52,902 | INFO | CLICK -> Click Go to App
+2026-04-27 15:25:53,102 | INFO | CLICK -> Click Right Arrow
+2026-04-27 15:25:53,271 | INFO | CLICK -> Click Left Arrow
+2026-04-27 15:25:53,369 | INFO | CLICK -> Click Center Card
+2026-04-27 15:25:53,604 | INFO | CLICK -> Click Back
+2026-04-27 15:25:53,703 | INFO | CLICK -> Open Register Profile
+2026-04-27 15:25:54,761 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 15:25:55,782 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 15:25:56,809 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 15:25:56,871 | INFO | CLICK -> Click Propose Options
+2026-04-27 15:25:56,955 | INFO | CLICK -> Select Option
+2026-04-27 15:26:12,012 | ERROR | FAIL CLICK -> Scroll Right | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(".absolute.right-\\[1vw\\].z-50").first to be visible
+
+2026-04-27 15:30:07,588 | INFO | CLICK -> Click Email Field
+2026-04-27 15:30:08,653 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 15:30:08,734 | INFO | CLICK -> Click Password Field
+2026-04-27 15:30:09,784 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 15:30:09,853 | INFO | CLICK -> Click Login
+2026-04-27 15:30:11,744 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 15:30:11,852 | INFO | CLICK -> Click Go to App
+2026-04-27 15:30:12,037 | INFO | CLICK -> Click Right Arrow
+2026-04-27 15:30:12,121 | INFO | CLICK -> Click Left Arrow
+2026-04-27 15:30:12,240 | INFO | CLICK -> Click Center Card
+2026-04-27 15:30:12,454 | INFO | CLICK -> Click Back
+2026-04-27 15:30:12,552 | INFO | CLICK -> Open Register Profile
+2026-04-27 15:30:13,605 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 15:30:14,630 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 15:30:15,653 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 15:30:15,705 | INFO | CLICK -> Click Propose Options
+2026-04-27 15:30:15,788 | INFO | CLICK -> Select Option
+2026-04-27 15:30:30,835 | ERROR | FAIL CLICK -> Scroll Right | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(".absolute.right-\\[1vw\\].z-50").first to be visible
+
+2026-04-27 15:42:51,215 | INFO | CLICK -> Click Email Field
+2026-04-27 15:42:52,272 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 15:42:52,349 | INFO | CLICK -> Click Password Field
+2026-04-27 15:42:53,398 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 15:42:53,466 | INFO | CLICK -> Click Login
+2026-04-27 15:42:55,328 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 15:42:55,449 | INFO | CLICK -> Click Go to App
+2026-04-27 15:42:55,651 | INFO | CLICK -> Click Right Arrow
+2026-04-27 15:42:55,819 | INFO | CLICK -> Click Left Arrow
+2026-04-27 15:42:55,918 | INFO | CLICK -> Click Center Card
+2026-04-27 15:42:56,166 | INFO | CLICK -> Click Back
+2026-04-27 15:42:56,285 | INFO | CLICK -> Open Register Profile
+2026-04-27 15:42:57,343 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 15:42:58,373 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 15:42:59,400 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 15:42:59,486 | INFO | CLICK -> Click Propose Options
+2026-04-27 15:42:59,587 | INFO | CLICK -> Select Option
+2026-04-27 15:43:03,590 | INFO | CLICK -> Check Similarity
+2026-04-27 15:43:33,606 | ERROR | FAIL CLICK -> Check Similarity | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Check Similarity").first
+    - locator resolved to <button disabled class="px-[1.6vw] py-[1vh] rounded-[0.5vw]↵  text-[1.2vw] 2k:text-[1.3vw] text-white↵  bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵  opacity-50 cursor-not-allowed">Check Similarity</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+2026-04-27 15:52:46,486 | INFO | CLICK -> Click Email Field
+2026-04-27 15:52:47,541 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 15:52:47,634 | INFO | CLICK -> Click Password Field
+2026-04-27 15:52:48,685 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 15:52:48,734 | INFO | CLICK -> Click Login
+2026-04-27 15:52:50,537 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 15:52:50,671 | INFO | CLICK -> Click Go to App
+2026-04-27 15:52:50,855 | INFO | CLICK -> Click Right Arrow
+2026-04-27 15:52:50,967 | INFO | CLICK -> Click Left Arrow
+2026-04-27 15:52:51,070 | INFO | CLICK -> Click Center Card
+2026-04-27 15:52:51,284 | INFO | CLICK -> Click Back
+2026-04-27 15:52:51,386 | INFO | CLICK -> Open Register Profile
+2026-04-27 15:52:52,444 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 15:52:53,466 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 15:52:54,491 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 15:52:54,554 | INFO | CLICK -> Click Propose Options
+2026-04-27 15:52:54,637 | INFO | CLICK -> Select Option
+2026-04-27 15:52:58,674 | INFO | CLICK -> Check Similarity
+2026-04-27 15:53:28,685 | ERROR | FAIL CLICK -> Check Similarity | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Check Similarity").first
+    - locator resolved to <button disabled class="px-[1.6vw] py-[1vh] rounded-[0.5vw]↵  text-[1.2vw] 2k:text-[1.3vw] text-white↵  bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵  opacity-50 cursor-not-allowed">Check Similarity</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+2026-04-27 15:55:41,760 | INFO | CLICK -> Click Email Field
+2026-04-27 15:55:42,934 | INFO | FILL -> Enter Email: sherpa@local.com
+2026-04-27 15:55:43,014 | INFO | CLICK -> Click Password Field
+2026-04-27 15:55:44,062 | INFO | FILL -> Enter Password: sherpa@123
+2026-04-27 15:55:44,160 | INFO | CLICK -> Click Login
+2026-04-27 15:55:46,037 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 15:55:46,147 | INFO | CLICK -> Click Go to App
+2026-04-27 15:55:46,359 | INFO | CLICK -> Click Right Arrow
+2026-04-27 15:55:46,495 | INFO | CLICK -> Click Left Arrow
+2026-04-27 15:55:46,597 | INFO | CLICK -> Click Center Card
+2026-04-27 15:55:46,824 | INFO | CLICK -> Click Back
+2026-04-27 15:55:46,929 | INFO | CLICK -> Open Register Profile
+2026-04-27 15:55:47,984 | INFO | FILL -> Enter Profile Name: testing
+2026-04-27 15:55:49,009 | INFO | FILL -> Enter Control Class: burst
+2026-04-27 15:55:50,035 | INFO | FILL -> Enter Input Data: 123456789000
+2026-04-27 15:55:50,131 | INFO | CLICK -> Click Propose Options
+2026-04-27 15:55:50,214 | INFO | CLICK -> Select Option
+2026-04-27 15:55:54,819 | INFO | CLICK -> Check Similarity
+2026-04-27 15:56:24,833 | ERROR | FAIL CLICK -> Check Similarity | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Check Similarity").first
+    - locator resolved to <button disabled class="px-[1.6vw] py-[1vh] rounded-[0.5vw]↵  text-[1.2vw] 2k:text-[1.3vw] text-white↵  bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]↵  opacity-50 cursor-not-allowed">Check Similarity</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+

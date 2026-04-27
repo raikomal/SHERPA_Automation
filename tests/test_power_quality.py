@@ -71,3 +71,39 @@
 
 # with sync_playwright() as playwright:
 #     run(playwright)
+
+import re
+from playwright.sync_api import Playwright, sync_playwright, expect
+
+
+def run(playwright: Playwright) -> None:
+    browser = playwright.chromium.launch(headless=False)
+    context = browser.new_context()
+    page = context.new_page()
+    page.goto("http://103.204.95.218:7050/")
+    page.get_by_role("textbox", name="Enter your email id").click()
+    page.get_by_role("textbox", name="Enter your email id").fill("sherpa@local.com")
+    page.get_by_role("textbox", name="Enter your password").click()
+    page.get_by_role("textbox", name="Enter your password").fill("sherpa@123")
+    page.get_by_role("button", name="LOGIN").click()
+    page.locator("div:nth-child(8) > .relative > .mt-auto > .flex.justify-between > .rounded-\\[0\\.4vw\\].p-\\[0\\.06vw\\] > .rounded-\\[0\\.4vw\\]").click()
+    page.locator(".highcharts-point.highcharts-color-1").first.click()
+    page.locator(".highcharts-point.highcharts-color-0.highcharts-point-hover").click()
+    page.locator(".highcharts-point.highcharts-color-0.highcharts-point-hover").click()
+    page.locator(".highcharts-point.highcharts-point-hover").click()
+    page.locator(".highcharts-point.highcharts-point-hover").click()
+    page.locator(".highcharts-point.highcharts-point-hover").click()
+    page.locator(".highcharts-series.highcharts-series-2 > .highcharts-point.highcharts-point-hover").click()
+    page.locator(".highcharts-series.highcharts-series-2 > .highcharts-point.highcharts-point-hover").click()
+    page.locator(".highcharts-markers > .highcharts-point").click()
+    page.get_by_role("button").nth(3).click()
+    page.get_by_role("button", name="Yes").click()
+
+    # ---------------------
+    context.close()
+    browser.close()
+
+
+with sync_playwright() as playwright:
+    run(playwright)
+
