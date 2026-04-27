@@ -585,3 +585,118 @@ Call log:
      - retrying click action
        - waiting 500ms
 
+2026-04-27 22:14:33,918 | INFO | CLICK -> Click Email Field
+2026-04-27 22:14:34,026 | INFO | CLICK -> Click Password Field
+2026-04-27 22:14:34,114 | INFO | CLICK -> Click Login Icon
+2026-04-27 22:14:34,237 | INFO | CLICK -> Click LOGIN Button
+2026-04-27 22:14:36,534 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 22:14:36,637 | INFO | CLICK -> Click Go To App
+2026-04-27 22:14:36,857 | INFO | CLICK -> Click Right Arrow
+2026-04-27 22:14:36,973 | INFO | CLICK -> Click Left Arrow
+2026-04-27 22:14:37,041 | ERROR | FAIL CLICK -> Click Graph Card | Locator.wait_for: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '.w-\[2vw\].h-\[2vw\].flex.items-center.justify-center.rounded-\[0\.5vw\].bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]' is not a valid selector.
+    at query (<anonymous>:5288:41)
+    at <anonymous>:5298:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:5075:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5285:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:5165:19)
+    at <anonymous>:5113:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:5075:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:5106:19)
+    at Object.query (<anonymous>:5320:44)
+    at <anonymous>:5278:21
+Call log:
+  - waiting for locator(".w-\\[2vw\\].h-\\[2vw\\].flex.items-center.justify-center.rounded-\\[0\\.5vw\\].bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]").first to be visible
+
+2026-04-27 22:14:37,104 | INFO | CLICK -> Click Back
+2026-04-27 22:14:52,281 | ERROR | FAIL CLICK -> Open Register Profile | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Register Profile").first to be visible
+
+2026-04-27 22:15:07,300 | ERROR | FAIL CLICK -> Click Profile Name | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for get_by_role("textbox", name="e.g. Profile A").first to be visible
+
+2026-04-27 22:21:21,446 | INFO | CLICK -> Click Email Field
+2026-04-27 22:21:21,574 | INFO | CLICK -> Click Password Field
+2026-04-27 22:21:21,670 | INFO | CLICK -> Click Login Icon
+2026-04-27 22:21:21,791 | INFO | CLICK -> Click LOGIN Button
+2026-04-27 22:21:24,158 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 22:21:24,328 | INFO | CLICK -> Click Go To App
+2026-04-27 22:21:24,575 | INFO | CLICK -> Click Right Arrow
+2026-04-27 22:21:24,705 | INFO | CLICK -> Click Left Arrow
+2026-04-27 22:21:24,848 | INFO | CLICK -> Click Graph Card
+2026-04-27 22:21:24,960 | INFO | CLICK -> Click Back
+2026-04-27 22:28:05,610 | INFO | CLICK -> Click Email Field
+2026-04-27 22:28:05,759 | INFO | CLICK -> Click Password Field
+2026-04-27 22:28:05,892 | INFO | CLICK -> Click Login Icon
+2026-04-27 22:28:06,009 | INFO | CLICK -> Click LOGIN Button
+2026-04-27 22:28:08,260 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 22:28:08,378 | INFO | CLICK -> Click Go To App
+2026-04-27 22:28:08,678 | INFO | CLICK -> Click Right Arrow
+2026-04-27 22:28:08,878 | INFO | CLICK -> Click Left Arrow
+2026-04-27 22:28:08,996 | INFO | CLICK -> Click Graph Card
+2026-04-27 22:28:09,112 | INFO | CLICK -> Click Back
+2026-04-27 22:36:17,529 | INFO | CLICK -> Click Email Field
+2026-04-27 22:36:17,676 | INFO | CLICK -> Click Password Field
+2026-04-27 22:36:17,770 | INFO | CLICK -> Click Login Icon
+2026-04-27 22:36:17,892 | INFO | CLICK -> Click LOGIN Button
+2026-04-27 22:36:20,175 | INFO | CLICK -> Open Profile Dictionary
+2026-04-27 22:36:20,276 | INFO | CLICK -> Click Go To App
+2026-04-27 22:36:20,559 | INFO | CLICK -> Click Right Arrow
+2026-04-27 22:36:20,796 | INFO | CLICK -> Click Left Arrow
+2026-04-27 22:36:20,912 | INFO | CLICK -> Click Graph Card
+2026-04-27 22:36:21,066 | INFO | CLICK -> Open Register Profile
+2026-04-27 22:36:21,244 | INFO | CLICK -> Click Profile Name
+2026-04-27 22:36:21,360 | INFO | CLICK -> Click Control Class
+2026-04-27 22:36:21,510 | INFO | CLICK -> Click Input Field
+2026-04-27 22:36:21,627 | INFO | CLICK -> Click Propose Options
+2026-04-27 22:36:26,130 | INFO | CLICK -> Select Option
+2026-04-27 22:36:41,296 | ERROR | FAIL CLICK -> Click Carousel Right | Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator(".absolute.right-\\[1vw\\].z-50").first to be visible
+
+2026-04-27 22:36:43,859 | INFO | CLICK -> Click Carousel Right Again
+2026-04-27 22:36:44,119 | INFO | CLICK -> Click Check Similarity
+2026-04-27 22:36:44,349 | INFO | CLICK -> Click Preview
+2026-04-27 22:36:44,519 | INFO | CLICK -> Click Confirm
+2026-04-27 22:36:44,679 | INFO | CLICK -> Click Cancel
+2026-04-27 22:36:44,825 | INFO | CLICK -> Click Confirm Again
+2026-04-27 22:36:44,967 | INFO | CLICK -> Click Yes
+2026-04-27 22:36:50,079 | INFO | CLICK -> Open User Generated Profiles
+2026-04-27 22:36:53,068 | INFO | CLICK -> Click Right Arrow
+2026-04-27 22:36:53,145 | ERROR | FAIL CLICK -> Click Card | Locator.wait_for: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '.w-\[2vw\].h-\[2vw\].flex.items-center.justify-center.rounded-[0\.5vw].bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]' is not a valid selector.
+    at query (<anonymous>:5288:41)
+    at <anonymous>:5298:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:5075:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5285:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:5165:19)
+    at <anonymous>:5113:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:5075:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:5106:19)
+    at Object.query (<anonymous>:5320:44)
+    at <anonymous>:5278:21
+Call log:
+  - waiting for locator(".w-\\[2vw\\].h-\\[2vw\\].flex.items-center.justify-center.rounded-[0\\.5vw].bg-[linear-gradient(90deg,#0D405D_0%,#316D90_100%)]").first to be visible
+
+2026-04-27 22:36:53,218 | INFO | CLICK -> Click Back
+2026-04-27 22:36:53,366 | INFO | CLICK -> Open Menu
+2026-04-27 22:36:53,648 | INFO | CLICK -> Open Power Monitoring
+2026-04-27 22:36:53,767 | INFO | CLICK -> Go To Power Monitoring App
+2026-04-27 22:36:54,816 | INFO | CLICK -> Select A3
+2026-04-27 22:36:55,017 | INFO | CLICK -> Select A4
+2026-04-27 22:36:55,200 | INFO | CLICK -> Open Isolated View
+2026-04-27 22:36:58,503 | INFO | CLICK -> Select A1
+2026-04-27 22:36:58,619 | INFO | CLICK -> Select A4
+2026-04-27 22:36:58,821 | INFO | CLICK -> Click Zoom
+2026-04-27 22:36:59,011 | INFO | CLICK -> Close Zoom
+2026-04-27 22:36:59,157 | INFO | CLICK -> Click 35%
+2026-04-27 22:36:59,271 | INFO | CLICK -> Click 25%
+2026-04-27 22:36:59,387 | INFO | CLICK -> Click PeakPeak
+2026-04-27 22:36:59,503 | INFO | CLICK -> Click Graph Point
+2026-04-27 22:36:59,622 | INFO | CLICK -> Open Distributed View
+2026-04-27 22:36:59,885 | INFO | CLICK -> Open Deployment Status
+2026-04-27 22:37:01,996 | INFO | CLICK -> Click Back Arrow
+2026-04-27 22:37:04,193 | INFO | CLICK -> Open Power Quality
+2026-04-27 22:37:08,737 | INFO | CLICK -> Click Graph Point
+2026-04-27 22:37:09,875 | INFO | CLICK -> Click Close Button
+2026-04-27 22:37:10,093 | INFO | CLICK -> Confirm Close

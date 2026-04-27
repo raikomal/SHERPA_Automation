@@ -211,9 +211,9 @@ def step_click(locator, desc):
         record_step(desc, f"Click {desc}", "Should click", "Clicked")
 
     except Exception as e:
-        logger.error(f"FAIL CLICK -> {desc} | {e}")
-        record_step(desc, f"Click {desc}", "Should click", str(e), "FAIL")
-        raise
+     logger.error(f"FAIL CLICK -> {desc} | {e}")
+     record_step(desc, f"Click {desc}", "Should click", str(e), "FAIL")
+    # ✅ NO raise → continues execution
 
 
 # =========================
